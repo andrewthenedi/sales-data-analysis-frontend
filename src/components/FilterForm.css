@@ -1,0 +1,61 @@
+.filter-form {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input[type="date"],
+.form-group input[type="time"],
+.form-group input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  line-height: 1.5;
+}
+
+fieldset {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+}
+
+legend {
+  width: auto;
+  padding: 0 10px;
+  font-weight: bold;
+}
+
+fieldset div {
+  margin-bottom: 10px;
+}
+
+.submit-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  display: block;
+  width: 100%;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
